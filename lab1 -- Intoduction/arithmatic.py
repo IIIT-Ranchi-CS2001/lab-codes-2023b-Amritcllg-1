@@ -1,0 +1,7 @@
+a,b=map(int,input('ENTER 2 NUMBERS : ').split())
+print(f'SUM IS : {a+b}')
+print(f'DIFFERENCE IS : {a-b}')
+print(f'PRODUCT IS : {a*b}')
+print(f'INTEGER QUOTIENT IS : {a//b}')
+print(f'REMAINDER IS : {a%b}')
+print(f'FRACTIONAL QUOTIENT IS : {a/b}')
