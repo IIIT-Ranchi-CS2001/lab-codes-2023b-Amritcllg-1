@@ -1,12 +1,12 @@
 l=list(map(int,input('ENTER THE ELEMENTS OF THE LIST : ').split()))
 l.sort()
 size=len(l)
-meadin=0
+median=0
 mean=sum(l)/size
-if size%2==0:
-    meadin=l[(size+1)//2]
+if size%2==1:
+    median=l[((size+1)//2)-1]
 else:
-    median=(l[size//2]+l[(size//2)+1])//2
+    median=(l[(size//2)-1]+l[(size//2)])/2
     
 mode=0
 f=float('-inf')
