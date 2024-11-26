@@ -1,4 +1,4 @@
-s=input("ENTER THE STRING : ").split(' ')
+s=input("ENTER THE STRING : ").split(',')
 letter=list(filter(lambda x:x.isalpha(),s))
 numbers=list(filter(lambda x:x.isnumeric(),s))
 alphanumeric=list(filter(lambda x:x.isalnum(),s))

@@ -17,8 +17,8 @@ def my_zip(a,b,c,strct):
 
     
 customer_name=['Amrit','Aagman','Deepanshu','Ayush','Chirag']
-customer_id=['1003','1005','1001','1004','1002']
-shopping_points=[43,56,98,101,76]
+customer_id=['1003','1005','1001']
+shopping_points=[43,56,98,101]
 
 def my_sort(l,Key):
     temp=copy.deepcopy(l)
