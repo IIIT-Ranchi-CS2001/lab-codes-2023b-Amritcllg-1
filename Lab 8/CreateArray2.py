@@ -9,4 +9,4 @@ def CreateArray(*args):
     return res
     
 
-print(CreateArray(1,2,3,4))
+print(CreateArray(1,2,3,4,5))
